@@ -33,9 +33,9 @@ const Hero = () => {
         <div className="flex justify-between items-center gap-4">
 
           {/* Days value */}
-          <span>Days:</span>
+          <span className="text-sm">Days:</span>
           <input type="text" id="days" value={subscriptionValue} className="bg-slate-200 rounded p-2 w-1/2" readOnly />
-          <span>Subscription:</span>
+          <span className="text-sm">Subs:</span>
 
           {/* Subscription */}
           <select name="days" id="subscription" className="rounded p-3 w-1/2 cursor-pointer" value={subscriptionValue} onChange={handleSubscriptionChange}>
@@ -69,7 +69,7 @@ const Hero = () => {
 
           {/* Calculate Remaining days */}
           <button id="calcDays" className="bg-green-400 rounded p-2 hover:bg-green-300 active:bg-green-500" onClick={calculateRemainingDays}>
-            Calculate remaining days
+            Calculate
           </button>
 
           {/*Set value to default */}
