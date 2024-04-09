@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex justify-center items-center h-screen">
+    <section className="flex justify-center items-center h-screen max-sm:p-5">
 
       <div className="bg-white max-w-md rounded-md flex flex-col p-5 justify-center gap-2 ">
         <h1 className='font-medium mb-2'>Gawa ng pogi para kay Sophia Joyce Ganda</h1>
